@@ -1,0 +1,173 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.head::before {
+    content: "";
+    background: url('b.jpg') no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.head h1 {
+    text-align: center;
+    color: aliceblue;
+    font-family: 'Lilita One', cursive;
+    font-size: 3.5rem;
+    letter-spacing: 7px;
+}
+
+.line {
+    background-color: white;
+    width: 200px;
+    height: 2px;
+}
+
+.head h3 {
+    text-align: center;
+    background-color: #717171b0;
+    color: #ffffff;
+    font-family: 'Patua One', cursive;
+    font-size: 1.6rem;
+    letter-spacing: 7px;
+}
+
+.left-from {
+    width: 580px;
+    margin: 10px;
+    margin-left: 40px;
+    background-color: #6163634f;
+    border: 2px solid black;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px 0px #000000a8;
+}
+
+.left-from h3 {
+    text-align: center;
+    color: #ffffff;
+    letter-spacing: 7px;
+    text-shadow: 0px 0px 15px grey;
+    font-family: 'Patua One', cursive;
+    font-size: 1.5rem;
+    margin: 10px 0px;
+}
+
+form {
+    margin: 32px;
+    margin-left: 73px;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+
+form input {
+    background-color: #ededed4f;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    margin-left: 10px;
+    padding: 4px;
+}
+form b, form label{
+    color:#fcfcfc;;
+}
+form button{
+    font-size: 1.0rem;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    padding: 4px;
+    margin: 10px;
+}
+#re{
+    background-color: #fd3232c4;
+    color: #fcfcfc;
+}
+#sub{
+    background-color:rgb(252 148 29 / 64%);
+    color: #fcfcfc;
+}
+form button:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+#number {
+    margin-left: 16px;
+}
+
+#email {
+    margin-left: 30px;
+}
+
+#age {
+    margin-left: 75px;
+}
+
+#add {
+    margin-left: 30px;
+    resize: none;
+    background-color: #ededed4f;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    margin-top: 2px;
+}
+
+.main {
+    display: flex;
+    width: 100%;
+}
+
+.line {
+    width: 2px;
+    height: 400px;
+    border-radius: 500px;
+    margin: 34px 17px;
+    box-shadow: 0px 0px 20px 3px #000000;
+
+}
+
+.display-det {
+    height: 430px;
+    overflow: auto;
+}
+
+.display h3 {
+    text-align: center;
+    color: #ffffff;
+    letter-spacing: 7px;
+    text-shadow: 0px 0px 15px grey;
+    font-family: 'Patua One', cursive;
+    font-size: 1.5rem;
+    width: 535px;
+    margin: 10px 0px;
+}
+
+.student-box {
+    display: flex;
+    border: 2px solid black;
+    border-radius: 15px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #a8a8a85c;
+}
+
+.student-box {
+    width: 510px;
+    display: flex;
+}
+.para {
+    width: 410px;
+    overflow-y: hidden;
+}
+.picimg {
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin-left: 20px;
+}
